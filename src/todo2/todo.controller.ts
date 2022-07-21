@@ -9,15 +9,15 @@ export class TodoController {
     return this.todoService.getHello();
   }
   @Post()
-  create(): string {
-    return this.itemsService.create();
+  getCreate(): string {
+    return this.todoService.getCreate();
   }
   @Put()
-  update(): string {
-    return this.itemsService.update();
+  getUpdate(): string {
+    return this.todoService.getUpdate();
   }
   @Delete()
-  delete(): string {
-    return this.itemsService.delete();
+  getDelete(): string {
+    return this.todoService.getDelete();
   }
 }

@@ -5,13 +5,13 @@ export class TodoService {
   getHello(): string {
     return 'Hello';
   }
-  create(): string {
+  getCreate(): string {
     return 'Post';
   }
-  update(): string {
+  getUpdate(): string {
     return 'Update';
   }
-  delete(): string {
+  getDelete(): string {
     return 'Delete';
   }
 }
